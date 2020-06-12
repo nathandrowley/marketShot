@@ -12,16 +12,18 @@ ul a {
 
 h1 {
     color: black;
-
+    text-align: center;
 }
 
 h2 {
     color: green;
+    text-align: center;
 }
 
 h3{
     color: green;
     transform: skew(15deg, 4deg);
+    text-align: center;
 }
 
 p {
@@ -30,17 +32,62 @@ p {
 }
 
 div.stockData{
-    border: double;
+    background-color: lightgrey;
+    width: 300px;
+    border: 9px solid green;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 body {
-    background-image: url("cta-bg.jpg");
-    
+    font-family: Helvetica Neue, Arial, sans-serif;
+    background-image: url("pics/background.jpg");
+    max-width: 500px;
+    margin: auto;
+    background-attachment: fixed;
+    background-position: center;   
+    background-size:cover;
 }
+.table thead th {
+    background-color: #118825;
+    border: solid 1px #2c6b26;
+    color: #eeeeee;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(7, 49, 7);
+  }
+  
+  .table tbody td {
+    background-color: lightgrey;
+    width: 300px;
+    border: 9px solid green;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
 
 footer {
-    position: fixed;
+ 
     bottom: 0;
     width: 100%;
 }
