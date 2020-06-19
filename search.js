@@ -1,3 +1,5 @@
+function search(){}
+
 symbol = 'AAPL';
  document.addEventListener('DOMContentLoaded', () => {
    // https://financialmodelingprep.com/developer/docs
