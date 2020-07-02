@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/marketShot/static/css/main.df960b76.chunk.css",
+    "main.js": "/marketShot/static/js/main.b42b60f1.chunk.js",
+    "main.js.map": "/marketShot/static/js/main.b42b60f1.chunk.js.map",
+    "runtime-main.js": "/marketShot/static/js/runtime-main.aaf46cc9.js",
+    "runtime-main.js.map": "/marketShot/static/js/runtime-main.aaf46cc9.js.map",
+    "static/js/2.02097557.chunk.js": "/marketShot/static/js/2.02097557.chunk.js",
+    "static/js/2.02097557.chunk.js.map": "/marketShot/static/js/2.02097557.chunk.js.map",
+    "index.html": "/marketShot/index.html",
+    "precache-manifest.8bf4e0f00f2cb49a612972724f8fde25.js": "/marketShot/precache-manifest.8bf4e0f00f2cb49a612972724f8fde25.js",
+    "service-worker.js": "/marketShot/service-worker.js",
+    "static/css/main.df960b76.chunk.css.map": "/marketShot/static/css/main.df960b76.chunk.css.map",
+    "static/js/2.02097557.chunk.js.LICENSE.txt": "/marketShot/static/js/2.02097557.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/marketShot/static/media/background.e5707cb7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aaf46cc9.js",
+    "static/js/2.02097557.chunk.js",
+    "static/css/main.df960b76.chunk.css",
+    "static/js/main.b42b60f1.chunk.js"
+  ]
+}
