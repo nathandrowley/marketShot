@@ -5,6 +5,15 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  
+
+}
+.divPic{
+  border-radius:10px;
+}
+
+img{
+  border-radius:10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -23,19 +32,39 @@
   font-size: calc(10px + 2vmin);
   color: rgb(11, 90, 18);
 }
+h2{
+  color: rgb(6, 53, 10);
+  font-weight: 700;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+h3{
+  color: rgb(6, 53, 10);
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
 
 .App-link {
   color: #0c792d;
 }
+
+input{
+  padding: 8px;
+  border-radius: 6px;
+  border:none;
+  box-shadow: 0px 0px 3px rgb(6, 53, 10);
+}
+
 .container{
   background-image: url(./pics/background.jpg);
   margin: auto;
-  background-attachment: fixed;
-  background-position: center;   
-  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%
 }
-
-
 
 @keyframes App-logo-spin {
   from {
