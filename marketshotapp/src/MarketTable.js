@@ -5,16 +5,6 @@ export default function MarketTable(props) {
   const { data } = props || {};
   const { profile = {} } = data || {};
 
-  // return (
-  //   <div className={classes.anything}>
-  //     <h2>Company Name{profile.companyName}</h2>
-  //     <h3>Price USD ${profile.price}</h3>
-  //     <h3>{profile.beta}</h3>
-  //     <h3>{profile.volAvg}</h3>
-  //     <h3>{profile.mktCap}</h3>
-
-  //   </div>
-  // );
   return (
     <table className={classes.table}>
       <tr>
